@@ -1,0 +1,19 @@
+﻿<!--First we have to let the view know what object is going to be passed to the controller.
+    By typing the razor statement below.
+    -->
+@model IEnumerable <CollegeBookRental.Models.Genre>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<!--The we need to change the h2 From Index to Genre-->
+<h2>Genre</h2>
+
+<!--Then add a button, which come from bootstrap,
+    Then make a glyphicon that add an icon.
+    -->
+
+<a type="button" class="btn btn-primary btn-sm" href=" @Url.Action("Create")"
+   <span class=" glyphicon glyphicon-plus"></span>
+<span>Create New</span> 
