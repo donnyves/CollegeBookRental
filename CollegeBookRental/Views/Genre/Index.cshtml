@@ -1,7 +1,7 @@
 ﻿<!--First we have to let the view know what object is going to be passed to the controller.
     By typing the razor statement below.
     -->
-@model IEnumerable <CollegeBookRental.Models.Genre>
+@model IEnumerable<CollegeBookRental.Models.Genre>
 @{
     ViewBag.Title = "Index";
 }
@@ -10,10 +10,36 @@
 <!--The we need to change the h2 From Index to Genre-->
 <h2>Genre</h2>
 
-<!--Then add a button, which come from bootstrap,
-    Then make a glyphicon that add an icon.
-    -->
 
-<a type="button" class="btn btn-primary btn-sm" href=" @Url.Action("Create")"
-   <span class=" glyphicon glyphicon-plus"></span>
-<span>Create New</span> 
+@Html.Partial("_CreateButtonPartial")
+<!--(<th></th>) is a table header.
+    The lambda expression will display the name.-->
+<table class="table table-condensed table-hover">
+    <tr class="table-header">
+    
+        <th>
+            @Html.DisplayNameFor(m => m.Name)
+        </th>
+        <th></th>
+    </tr>
+
+
+    <!--We have to create a foreach loop to iterate through all the values
+       the we retrieve and display all the Genre names. -->
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(m => item.Name)
+            </td>
+
+            <td>
+                EDIT | DETAILS |DELETE |
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+
