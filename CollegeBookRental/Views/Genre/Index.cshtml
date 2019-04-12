@@ -1,7 +1,10 @@
 ﻿<!--First we have to let the view know what object is going to be passed to the controller.
     By typing the razor statement below.
+    -I have to use the "@@using to reference the Model I created."
     -->
+
 @model IEnumerable<CollegeBookRental.Models.Genre>
+    @using CollegeBookRental.Models
 @{
     ViewBag.Title = "Index";
 }
@@ -16,30 +19,34 @@
     The lambda expression will display the name.-->
 <table class="table table-condensed table-hover">
     <tr class="table-header">
-    
+
         <th>
             @Html.DisplayNameFor(m => m.Name)
         </th>
+        <th></th>
+        <th></th>
         <th></th>
     </tr>
 
 
     <!--We have to create a foreach loop to iterate through all the values
-       the we retrieve and display all the Genre names. -->
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(m => item.Name)
-            </td>
+           the we retrieve and display all the Genre names.
+            -I replace hard-coded text with 
+        @@Html.Partial("_TableButtonPartial",new IndividualButtonPartial { GenreId =item.Id })-->
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(m => item.Name)
+                </td>
+             
+                <td>
+             @Html.Partial("_TableButtonPartial",new IndividualButtonPartial { GenreId =item.Id })
+                </td>
+            </tr>
+        }
 
-            <td>
-                EDIT | DETAILS |DELETE |
-            </td>
-        </tr>
-    }
-
-</table>
+    </table>
 
 
 
