@@ -1,0 +1,9 @@
+﻿@model int
+
+<!--When I create the Edit button, the user has to pass an id
+    The genre need an Id.-->
+
+<a type="button" class="btn btn-primary btn-sm" href=" @Url.Action("Edit", new {id= Model})">
+    <span class=" glyphicon glyphicon-pencil"></span>
+    <span>Edit</span>
+</a>

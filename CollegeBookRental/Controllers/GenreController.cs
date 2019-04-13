@@ -76,7 +76,70 @@ namespace CollegeBookRental.Controllers
             return View(genre);
         }
 
+        //The Edit method has fuctionality similar to the Details Method.
+        public ActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Genre genre = db.Genres.Find(id);
+            if (genre == null)
+            {
+                return HttpNotFound();
+            }
+            return View(genre);
+        }
+        //The Edit Method will need an HttpPost 
+        //EntityState.Modified will track all changes in the database.
+        //EntityState.Modified will all change the primary key and make the proper adjustments.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
 
+        public ActionResult Edit(Genre genre)
+        {
+            if(ModelState.IsValid)
+            {
+                //This allows you to update a few collumns at time.
+                //var GenreInDb = db.Genres.FirstOrDefault(g => g.Id.Equals(genre.Id));
+                //GenreInDb.Name = genre.Name;
+
+                db.Entry(genre).State = System.Data.Entity.EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+        //The Delete method will have similar funcionality like the Edit method.
+        //The Delete Get will not have any changes
+        //For the Delete post.Make changes to the Delete parameter to int.
+        //I created an object, that will be removed from the database.
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Genre genre = db.Genres.Find(id);
+            if (genre == null)
+            {
+                return HttpNotFound();
+            }
+            return View(genre);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int Id)
+        {
+
+            Genre genre = db.Genres.Find(Id);
+            db.Genres.Remove(genre);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+    
+        }
 
         //This is so I can delocate. 
         protected override void Dispose(bool disposing)
