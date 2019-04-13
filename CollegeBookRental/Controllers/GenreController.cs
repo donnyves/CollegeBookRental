@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 
@@ -55,6 +56,25 @@ namespace CollegeBookRental.Controllers
         //db.SaveChanges commits these changes.
         //Then we will return RedirectToAction to return the Index.
         //Then we want to display Index view with what was added.
+
+
+            //Now I have to create an ActionResult named Details
+            //if the id is null it will be a bad request,otherwise a new object Genre will be created.
+            //if the genre object is null, return an HttpNotFound.  Otherwise return the object genre
+            //to the view.
+            public ActionResult Details(int? id)
+        {
+            if(id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Genre genre = db.Genres.Find(id);
+            if(genre==null)
+            {
+                return HttpNotFound();
+            }
+            return View(genre);
+        }
 
 
 
