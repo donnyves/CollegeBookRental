@@ -32,3 +32,31 @@ initial commit. Class Project
 
 **Test Explorer with initial unit tests**
 ![UnitTest-1](https://user-images.githubusercontent.com/40510674/56087261-09eaf880-5e1c-11e9-8e34-7d2a8d43a277.PNG)
+
+**References:**
+
+
+
+
+
+Freeman, Adam. Pro ASP.NET MVC 5 (Expert's Voice in ASP.Net) . Apress. Kindle Edition.
+
+
+
+
+https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started
+
+
+
+
+https://www.udemy.com
+
+
+
+https://www.youtube.com/watch?v=phyV-OQNeRM&list=WL&index=15&t=3795s
+
+
+
+
+
+---
