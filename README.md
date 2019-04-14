@@ -2,6 +2,9 @@
 initial commit. Class Project
 
 
+Link to project PowerPoint: [Project CollegeGame.pptx](https://github.com/donnyves/CollegeBookRental/files/3076989/Project.CollegeGame.pptx)
+
+
 [CollegeBookRentalLink](https://collegebookrentaldonnyves.azurewebsites.net/)
 ---
 **Screenshots of the Opening Page**
