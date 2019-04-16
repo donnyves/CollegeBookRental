@@ -1,11 +1,69 @@
-# CollegeBookRental
+# CollegeBookRental:
 
-
-
-Link to project PowerPoint: [Project CollegeGame.pptx](https://github.com/donnyves/CollegeBookRental/files/3076989/Project.CollegeGame.pptx)
 
 
 [CollegeBookRentalLink](https://collegebookrentaldonnyves.azurewebsites.net/)
+- SRR  System Requirements Review
+
+	- User Stories
+  - Requirements (doc): [Project CollegeGame.pptx](https://github.com/donnyves/CollegeBookRental/files/3076989/Project.CollegeGame.pptx)
+---
+- SDR  System Design Review
+
+	- Use Cases
+  - Design Documents
+
+  - RTM  Requirements Traceablility Matrix
+  
+|Req #|Functional Requirements|Design Specifications| Status|
+| ------------- |:-------------:| -----:| --------|
+|1|    |      |         |
+|2|    |      |         |
+|3|    |      |         |
+|1|    |      |         |
+|2|    |      |         |
+|3|    |      |         |
+|1|    |      |         |
+|2|    |      |         |
+|3|    |      |         |
+|1|    |      |         |
+|2|    |      |         |
+|3|    |      |         |
+|1|    |      |         |
+|2|    |      |         |
+|3|    |      |         |
+|1|    |      |         |
+|2|    |      |         |
+|3|    |      |         |
+|1|    |      |         |
+|2|    |      |         |
+|3|    |      |         |
+|1|    |      |         |
+|2|    |      |         |
+|3|    |      |         |
+|1|    |      |         |
+|2|    |      |         |
+|3|    |      |         |
+  
+---
+- IPR   In-Process Review
+
+	- Project Review (schedule / plan)
+  - Progress
+    - (Review)
+    - (Retrospect)
+---
+- (TRR  Test Readiness Review)
+
+	- Plan
+  - Compliance Trace
+  ![UnitTest-1](https://user-images.githubusercontent.com/40510674/56087261-09eaf880-5e1c-11e9-8e34-7d2a8d43a277.PNG)
+---
+
+
+
+
+
 ---
 
 
@@ -14,21 +72,12 @@ Link to project PowerPoint: [Project CollegeGame.pptx](https://github.com/donnyv
 
 ---
 
-**Subsequent pages showing dynamic Content**
 
 
 
 
 
 
-**Solution Explorer with Project structure (folder organization)**
-
-
-
-
-
-**Test Explorer with initial unit tests**
-![UnitTest-1](https://user-images.githubusercontent.com/40510674/56087261-09eaf880-5e1c-11e9-8e34-7d2a8d43a277.PNG)
 
 **References:**
 
