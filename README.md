@@ -26,17 +26,17 @@ An application where you can rent books at a fair and reasonable price.
   - RTM  Requirements Traceablility Matrix
   
 |Req #|Functional Requirements|Design Specifications| Status|Unit Test  |
-| ------------- |:-------------:| -----:| --------|------|
+| ------------- |-------------| -----| --------|------|
 |1|Create Interactive and Dynamic features  |Use CSS and Javscript  |Progressing |N/A|
-|2|    |      |         ||
-|3|    |      |         ||
-|4|    |      |         ||
-|5|    |      |         ||
-|6|    |      |         ||
-|7|    |      |         ||
-|8|    |      |         ||
-|9|    |      |         ||
-|10|    |      |         ||
+|2|Complete Class Diagram  |Create Table from POCO Classes|Porgressing|N/A|
+|3|CRUD Operations|Create Tables in DB|Progressing |N/A|
+|4|Connect DB to CRUD Operations|Create DB in SSMS|Complete|N/A|
+|5|Create an About and Contact page|Create a View for both pages|Progressing|N/A|
+|6|Upload Book Images from DB|DB      |Progressing|N/A|
+|7|Create Decriptions of the Books|View |Progressing|N/A|
+|8|Create a Pricing System for the Books|DB|Progessing|N/A|
+|9|Create a Tracking System of the Books|DB|Progessing|N/A|
+|10|Create a Comment Page|View and DB|Progressing|N/A|
 |11|    |      |         ||
 |12|    |      |         ||
 |13|    |      |         ||
