@@ -47,7 +47,7 @@ An application where you can rent books at a fair and reasonable price.
 |8|Create a Pricing System for the Books|DB|Progessing|N/A|
 |9|Create a Tracking System of the Books|DB|Progessing|N/A|
 |10|Create a Comment Page|View and DB|Progressing|N/A|
-|11|    |      |         ||
+|11|Create a User Login    | Authentication     | Progressing        ||
 |12|    |      |         ||
 |13|    |      |         ||
 |14|    |      |         ||
