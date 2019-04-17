@@ -1,4 +1,6 @@
-# CollegeBookRental:
+# CollegeBookRental
+
+An application where you can rent books at a fair and reasonable price. 
 
 
 
@@ -23,33 +25,33 @@
 ![2-DropDown](https://user-images.githubusercontent.com/40510674/56087217-5255e680-5e1b-11e9-8c94-f01bd8417a5b.PNG)
   - RTM  Requirements Traceablility Matrix
   
-|Req #|Functional Requirements|Design Specifications| Status|
-| ------------- |:-------------:| -----:| --------|
-|1|    |      |         |
-|2|    |      |         |
-|3|    |      |         |
-|4|    |      |         |
-|5|    |      |         |
-|6|    |      |         |
-|7|    |      |         |
-|8|    |      |         |
-|9|    |      |         |
-|10|    |      |         |
-|11|    |      |         |
-|12|    |      |         |
-|13|    |      |         |
-|14|    |      |         |
-|15|    |      |         |
-|16|    |      |         |
-|17|    |      |         |
-|18|    |      |         |
-|19|    |      |         |
-|20|    |      |         |
-|21|    |      |         |
-|22|    |      |         |
-|23|    |      |         |
-|24|    |      |         |
-|25|    |      |         |
+|Req #|Functional Requirements|Design Specifications| Status|Unit Test  |
+| ------------- |:-------------:| -----:| --------|------|
+|1|Create Interactive and Dynamic features  |Use CSS and Javscript  |Progressing |N/A|
+|2|    |      |         ||
+|3|    |      |         ||
+|4|    |      |         ||
+|5|    |      |         ||
+|6|    |      |         ||
+|7|    |      |         ||
+|8|    |      |         ||
+|9|    |      |         ||
+|10|    |      |         ||
+|11|    |      |         ||
+|12|    |      |         ||
+|13|    |      |         ||
+|14|    |      |         ||
+|15|    |      |         ||
+|16|    |      |         ||
+|17|    |      |         ||
+|18|    |      |         ||
+|19|    |      |         ||
+|20|    |      |         ||
+|21|    |      |         ||
+|22|    |      |         ||
+|23|    |      |         ||
+|24|    |      |         ||
+|25|    |      |         ||
 
   
 ---
