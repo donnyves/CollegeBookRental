@@ -69,20 +69,23 @@ An application where you can rent books at a fair and reasonable price.
 - (TRR  Test Readiness Review)
 
 	- Plan
-- [x] Create New Genre
-- [ ] Create New Book
-- [ ] Create New User
-- [ ] Create New Memebership
-- [ ] Create New BookRental
-- [ ] Indicates Selected Category
-- [ ] Add Quantity
-- [ ] Calculate Total
-- [ ] Clear Contents
-- [ ] View Contents
-- [ ] Cannot Process Empty Contents
-- [ ] Can Submit Rental Order
+- [x] Create New Genre Test
+- [ ] Create New Book Test
+- [ ] Create New User Test
+- [ ] Create New Memebership Test
+- [ ] Create New BookRental Test
+- [ ] Indicates Selected Category Test
+- [ ] Add Quantity Test
+- [ ] Calculate Total Test
+- [ ] Clear Contents Test
+- [ ] View Contents Test
+- [ ] Cannot Process Empty Contents Test
+- [ ] Can Submit Rental Order Test
 
-       - Compliance Trace
+
+---
+
+- Compliance Trace
   ![UnitTest-1](https://user-images.githubusercontent.com/40510674/56087261-09eaf880-5e1c-11e9-8e34-7d2a8d43a277.PNG)
 ---
 
