@@ -38,7 +38,7 @@ An application where you can rent books at a fair and reasonable price.
 |Req #|Functional Requirements|Design Specifications| Status|Unit Test  |
 | ------------- |-------------| -----| --------|------|
 |1|Create Interactive and Dynamic features  |Use CSS and Javscript  |Progressing |N/A|
-|2|Complete Class Diagram  |Create Table from POCO Classes|Porgressing|N/A|
+|2|Complete Class Diagram  |Create Table from POCO Classes|Progressing|N/A|
 |3|CRUD Operations|Create Tables in DB|Progressing |N/A|
 |4|Connect DB to CRUD Operations|Create DB in SSMS|Complete|N/A|
 |5|Create an About and Contact page|Create a View for both pages|Progressing|N/A|
