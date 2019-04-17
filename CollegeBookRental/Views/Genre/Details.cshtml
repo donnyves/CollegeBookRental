@@ -1,29 +1,30 @@
 ﻿@model CollegeBookRental.Models.Genre
-    @{ 
-        ViewBag.Title = "Details";
-    }
+@{
+    ViewBag.Title = "Details";
+}
 
 <!--fieldset disabled is neccessary because I do not want users to edit the
     details.-->
 <div>
     <h3>Genre Details</h3>
-    <hr/>
-
-    <fieldset disabled>
-        <div class="row" style="padding-bottom:5px; padding-top:5px">
-            <div class=" =col-md-2">
-                @Html.LabelFor(m=>m.Name,htmlAttributes: new { @class="control-label"})
+    <hr />
+    <div class="form-border">
+        <fieldset disabled>
+            <div class="row" style="padding-bottom:5px; padding-top:5px">
+                <div class=" =col-md-2">
+                    @Html.LabelFor(m => m.Name, htmlAttributes: new { @class = "control-label" })
+                </div>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                </div>
             </div>
-            <div class="col-md-10">
-                @Html.TextBoxFor(m=>m.Name, new {@class="form-control" })
-            </div>
-        </div>
 
-    </fieldset>
+        </fieldset>
+    </div>
 </div>
 
-<br/>
+<br />
 <p>
     @Html.Partial("_BackToListButtonPartial")
-   @Html.Partial("_EditButtonPartial",Model.Id)
+    @Html.Partial("_EditButtonPartial", Model.Id)
 </p>

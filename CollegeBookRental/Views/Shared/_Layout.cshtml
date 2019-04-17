@@ -4,12 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="~/Content/bootstrap.css" rel="stylesheet" />
-    <link href="~/Content/bootstrap-grid.css" rel="stylesheet" />
-    <link href="~/Content/bootstrap-reboot.css" rel="stylesheet" />
-    <link href="~/Content/Site.css" rel="stylesheet" />
 
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    <title>@ViewBag.Title - My College Book Store</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -55,6 +52,18 @@
             </div>
         </div>
     </div>
+
+
+    <div>
+        <div>
+
+            <img src="~/Content/Images/blur-book-stack-bookcase-256517.png.jpg" alt="" style="        border-image-outset: 500px;
+        height: 500px" />
+
+        </div>
+    </div>
+
+
     <div class="container body-content">
         @RenderBody()
         <hr />
@@ -84,6 +93,7 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
+
 
 
     @Scripts.Render("~/bundles/jquery")

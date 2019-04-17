@@ -4,7 +4,7 @@
     -->
 
 @model IEnumerable<CollegeBookRental.Models.Genre>
-    @using CollegeBookRental.Models
+@using CollegeBookRental.Models
 @{
     ViewBag.Title = "Index";
 }
@@ -31,22 +31,22 @@
 
     <!--We have to create a foreach loop to iterate through all the values
            the we retrieve and display all the Genre names.
-            -I replace hard-coded text with 
+            -I replace hard-coded text with
         @@Html.Partial("_TableButtonPartial",new IndividualButtonPartial { GenreId =item.Id })-->
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(m => item.Name)
-                </td>
-             
-                <td>
-             @Html.Partial("_TableButtonPartial",new IndividualButtonPartial { GenreId =item.Id })
-                </td>
-            </tr>
-        }
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(m => item.Name)
+            </td>
 
-    </table>
+            <td>
+                @Html.Partial("_TableButtonPartial", new IndividualButtonPartial { GenreId = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
 
 
 

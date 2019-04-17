@@ -1,0 +1,67 @@
+﻿@model IEnumerable<CollegeBookRental.Models.Book>
+
+<!--I had to add a using reference for my buttons-->
+@using CollegeBookRental.Models;
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>Book Manager</h3>
+
+<!--I changed Html.ActionLink to Html.Partial similar to the Genre class-->
+<p>
+    @Html.Partial("_CreateButtonPartial")
+</p>
+<br />
+<!--I change the table to this below-->
+<table class="table table-condensed table-hover">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.ISBN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <!--I removed Author,Description, and ImageUrl, etc to make my View less cluttered.-->
+
+        <th>
+            @Html.DisplayNameFor(model => model.Availbility)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Genre.Name)
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.ISBN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre.Name)
+            </td>
+            <!--I removed the ActionLinks and replaced them with my partial views-->
+            <td>
+                @Html.Partial("_TableButtonPartial", new IndividualButtonPartial { BookId = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
