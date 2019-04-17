@@ -15,6 +15,10 @@ An application where you can rent books at a fair and reasonable price.
 	- Use Cases
   - Design Documents
 
+**Class Diagrams**
+
+![ClassDiagram](https://user-images.githubusercontent.com/40510674/56258172-7fa4cd80-6083-11e9-823a-efb39b5d8382.PNG)
+
 
 **SQL Scripts**
 
@@ -65,7 +69,20 @@ An application where you can rent books at a fair and reasonable price.
 - (TRR  Test Readiness Review)
 
 	- Plan
-  - Compliance Trace
+- [x] Create New Genre
+- [ ] Create New Book
+- [ ] Create New User
+- [ ] Create New Memebership
+- [ ] Create New BookRental
+- [ ] Indicates Selected Category
+- [ ] Add Quantity
+- [ ] Calculate Total
+- [ ] Clear Contents
+- [ ] View Contents
+- [ ] Cannot Process Empty Contents
+- [ ] Can Submit Rental Order
+
+       - Compliance Trace
   ![UnitTest-1](https://user-images.githubusercontent.com/40510674/56087261-09eaf880-5e1c-11e9-8e34-7d2a8d43a277.PNG)
 ---
 
