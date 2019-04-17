@@ -7,12 +7,12 @@ An application where you can rent books at a fair and reasonable price.
 [CollegeBookRentalLink](https://collegebookrentaldonnyves.azurewebsites.net/)
 - SRR  System Requirements Review
 
-	- User Stories
+	- User Stories (PowerPoint)
   - Requirements (doc): [Project CollegeGame.pptx](https://github.com/donnyves/CollegeBookRental/files/3076989/Project.CollegeGame.pptx)
 ---
 - SDR  System Design Review
 
-	- Use Cases
+	- Use Cases (PowerPoint)
   - Design Documents
 
 **Class Diagrams**
@@ -32,8 +32,8 @@ An application where you can rent books at a fair and reasonable price.
 
 	- Project Review (schedule / plan)
   - Progress
-    - (Review)
-    - (Retrospect)
+    - (Review) (RTM)
+    - (Retrospect) -I will probably attempte the DB first approach for my next project.
 --- 
 |Req #|Functional Requirements|Design Specifications| Status|Unit Test  |
 | ------------- |-------------| -----| --------|------|
