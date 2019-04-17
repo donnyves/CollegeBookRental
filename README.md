@@ -24,7 +24,13 @@ An application where you can rent books at a fair and reasonable price.
 **Screenshots of the Opening Page**
 ![2-DropDown](https://user-images.githubusercontent.com/40510674/56087217-5255e680-5e1b-11e9-8c94-f01bd8417a5b.PNG)
   - RTM  Requirements Traceablility Matrix
-  
+ - IPR   In-Process Review
+
+	- Project Review (schedule / plan)
+  - Progress
+    - (Review)
+    - (Retrospect)
+--- 
 |Req #|Functional Requirements|Design Specifications| Status|Unit Test  |
 | ------------- |-------------| -----| --------|------|
 |1|Create Interactive and Dynamic features  |Use CSS and Javscript  |Progressing |N/A|
@@ -55,13 +61,7 @@ An application where you can rent books at a fair and reasonable price.
 
   
 ---
-- IPR   In-Process Review
 
-	- Project Review (schedule / plan)
-  - Progress
-    - (Review)
-    - (Retrospect)
----
 - (TRR  Test Readiness Review)
 
 	- Plan
