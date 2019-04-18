@@ -26,12 +26,12 @@ textarea {
 
 /*added two custom css features*/
 .table-header {
-    background-color: blueviolet;
-    color: black
+    background-color: #cee7ff;
+    color: #03417D;
 }
 
 .form-border {
-    border: 1px solid #b0c4de;
+    border: 1px solid #bbb9b9;
     border-radius: 5px;
     padding-top: 20px;
     padding-bottom: 10px;

@@ -19,14 +19,16 @@
         <!--I want to add a photo, so I need to create a new div
         One with a col of 10 and the other with 2 for the image.-->
 
-        <div class="row" style="border: 1px solid #bbb9b9; border-radius: 5px">
+        <div class="row" style=" border: 1px solid #bbb9b9; border-radius: 5px">
             <div class="col-sm-10">
-
+                <br />
+                <br />
                 <div class="form-group">
                     @Html.LabelFor(model => model.ISBN, htmlAttributes: new { @class = "control-label col-md-2" })
                     <div class="col-md-10">
                         @Html.EditorFor(model => model.ISBN, new { htmlAttributes = new { @class = "form-control" } })
                         @Html.ValidationMessageFor(model => model.ISBN, "", new { @class = "text-danger" })
+
                     </div>
                 </div>
 
@@ -119,14 +121,19 @@
                     </div>
                 </div>
             </div>
-            <!--I had to add a div class for my image-->
-            <div class="col-sm-4">
+
+            <div class="col-sm-2">
+                <br />
+                <br />
                 <div>
-                    <img src="@Model.ImageUrl " alt="" style="width:100%; height:auto " />
+                    <img src="@Model.ImageUrl " alt="" style="width: 100%; height: auto" />
                 </div>
             </div>
         </div>
+        <!--I had to add a div class for my image-->
 
+
+        <br />
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Save" class="btn btn-default btn-success btn-sm" />

@@ -48,7 +48,7 @@ namespace CollegeBookRental.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,ISBN,Title,Author,Description,ImageUrl,Availbility,Price,DateAdded,GenreId,PublicationDate,Pages,ProductDimensions")] Book book)
+        public ActionResult Create([Bind(Include = "Id,ISBN,Title,Author,Description,ImageUrl,Availability,Price,DateAdded,GenreId,PublicationDate,Pages,ProductDimensions")] Book book)
         {
             if (ModelState.IsValid)
             {
@@ -82,7 +82,7 @@ namespace CollegeBookRental.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,ISBN,Title,Author,Description,ImageUrl,Availbility,Price,DateAdded,GenreId,PublicationDate,Pages,ProductDimensions")] Book book)
+        public ActionResult Edit([Bind(Include = "Id,ISBN,Title,Author,Description,ImageUrl,Availability,Price,DateAdded,GenreId,PublicationDate,Pages,ProductDimensions")] Book book)
         {
             if (ModelState.IsValid)
             {

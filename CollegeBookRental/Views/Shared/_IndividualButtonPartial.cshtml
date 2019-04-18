@@ -1,13 +1,13 @@
-﻿
-<!--The button class has to be changed from btn-primary to get a different color
+﻿<!--The button class has to be changed from btn-primary to get a different color
     We have to add the model I created from the IndividualButtonPartial class.
     -->
 @model CollegeBookRental.Models.IndividualButtonPartial
 
 
 
-<a type="button" class="btn btn-@Model.ButtonType btn-sm" href="
-   @Url.Action(Model.Action)@Model.ActionParameter">
-    <span class=" glyphicon glyphicon-@Model.Glyph"></span>
-    <span>@Model.Text</span>
+
+
+<a type="button" class="@Model.ButtonType  btn btn-sm" href="@Url.Action(Model.Action)@Model.ActionParameter">
+    <span class="glyphicon glyphicon-@Model.Glyph"></span>
+    <span></span>
 </a>
