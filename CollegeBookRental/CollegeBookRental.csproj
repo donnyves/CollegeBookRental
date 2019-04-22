@@ -245,6 +245,8 @@
     <Content Include="Content\Images\computer.png" />
     <Content Include="Content\Images\Python.png" />
     <Content Include="Content\Images\shopping.png" />
+    <Content Include="Content\solarbootrstrap.min.css" />
+    <Content Include="Content\solarbootstrap.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
