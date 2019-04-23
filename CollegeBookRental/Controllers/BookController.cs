@@ -78,6 +78,7 @@ namespace CollegeBookRental.Controllers
                 Author = bookVM.Book.Author,
                 Availbility = bookVM.Book.Availbility,
                 DateAdded = bookVM.Book.DateAdded,
+                Description = bookVM.Book.Description,
                 Genre = bookVM.Book.Genre,
                 GenreId = bookVM.Book.GenreId,
                 ImageUrl = bookVM.Book.ImageUrl,
@@ -85,9 +86,10 @@ namespace CollegeBookRental.Controllers
                 Pages = bookVM.Book.Pages,
                 Price = bookVM.Book.Price,
                 ProductDimensions = bookVM.Book.ProductDimensions,
+                PublicationDate = bookVM.Book.PublicationDate,
+                Publisher = bookVM.Book.Publisher,
                 Title = bookVM.Book.Title
             };
-
             if (ModelState.IsValid)
             {
                 db.Books.Add(book);
@@ -95,8 +97,9 @@ namespace CollegeBookRental.Controllers
                 return RedirectToAction("Index");
             }
 
-            //I want to avoid ViewBags and replace them with ViewModels which is a collection of models, so that model can be associated with that view. 
-
+            //I deleted [Bind(Include = "Id,ISBN,Title,Author,Description,ImageUrl,Availability,Price,DateAdded,GenreId,PublicationDate,Pages,ProductDimensions")
+            //because these properties should not be hard-coded. This was generated code. 
+            //BookViewModel will be passed in, and create BookViewModel into an object. 
             bookVM.Genres = db.Genres.ToList();
             return View(bookVM);
         }
@@ -129,16 +132,19 @@ namespace CollegeBookRental.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [ValidateInput(false)]
         public ActionResult Edit(BookViewModel bookVM)
         {
             //I am converting BookViewModel into book.
             var book = new Book
             {
                 //I need to include Id for the Edit message, so the new book has a unique Id.
+                //Added Publisher Field
                 Id = bookVM.Book.Id,
                 Author = bookVM.Book.Author,
                 Availbility = bookVM.Book.Availbility,
                 DateAdded = bookVM.Book.DateAdded,
+                Description = bookVM.Book.Description,
                 Genre = bookVM.Book.Genre,
                 GenreId = bookVM.Book.GenreId,
                 ImageUrl = bookVM.Book.ImageUrl,
@@ -146,6 +152,8 @@ namespace CollegeBookRental.Controllers
                 Pages = bookVM.Book.Pages,
                 Price = bookVM.Book.Price,
                 ProductDimensions = bookVM.Book.ProductDimensions,
+                PublicationDate = bookVM.Book.PublicationDate,
+                Publisher = bookVM.Book.Publisher,
                 Title = bookVM.Book.Title
             };
             if (ModelState.IsValid)
@@ -157,7 +165,7 @@ namespace CollegeBookRental.Controllers
             //The ViewBag was deleted.
             //   bookVM.Genres = db.Genres.ToList(); will only be called if the ModelState is not Valid.
             bookVM.Genres = db.Genres.ToList();
-            return View(book);
+            return View(bookVM);
         }
 
         // GET: Book/Delete/5

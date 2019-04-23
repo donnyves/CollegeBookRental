@@ -25,23 +25,23 @@ namespace CollegeBookRental.Models
         [Required]
         //You have to use the Datatype class if you want to use a picture.
         //DataType.ImageUrl represents a URL to an image.
-        [DataType (DataType.ImageUrl)]
+        [DataType(DataType.ImageUrl)]
         public string ImageUrl { get; set; }
 
         [Required]
         //Range of books will not be below zero.
-        [Range(0,1000)]
+        [Range(0, 1000)]
         public int Availbility { get; set; }
 
         [Required]
         //To display currency, use DataType.Currency
         [DataType(DataType.Currency)]
-        public double  Price { get; set; }
+        public double Price { get; set; }
 
         [Required]
         //To make the date format is established.
         [DisplayFormat(DataFormatString = "{0: MMM dd yyyy}")]
-        public DateTime?  DateAdded { get; set; }
+        public DateTime? DateAdded { get; set; }
 
         [Required]
         public int GenreId { get; set; }
@@ -50,7 +50,7 @@ namespace CollegeBookRental.Models
         public Genre Genre { get; set; }
 
         [Required]
-        [DataType (DataType.Date)]
+        [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0: MMM dd yyyy}")]
         public DateTime PublicationDate { get; set; }
 
@@ -61,6 +61,10 @@ namespace CollegeBookRental.Models
         public string ProductDimensions { get; set; }
 
 
+        //I added a new field that will have to be incorporated into my application.
+        //So now I have to do a "code first migration. (PM> add-migration AddPublisherToBookModel)then (PM> update-database)
+        [Required]
+        public string Publisher { get; set; }
 
     }
 }

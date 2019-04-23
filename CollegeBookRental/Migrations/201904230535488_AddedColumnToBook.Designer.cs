@@ -7,13 +7,13 @@ namespace CollegeBookRental.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class AddBookAndGenreClass : IMigrationMetadata
+    public sealed partial class AddedColumnToBook : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddBookAndGenreClass));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddedColumnToBook));
         
         string IMigrationMetadata.Id
         {
-            get { return "201904010519418_AddBookAndGenreClass"; }
+            get { return "201904230535488_AddedColumnToBook"; }
         }
         
         string IMigrationMetadata.Source
