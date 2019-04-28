@@ -35,21 +35,21 @@ An application where you can rent books at a fair and reasonable price.
     - (Review) (RTM)
     - (Retrospect) -I will probably attempt the DB first approach for my next project.
 --- 
-|Req #|Functional Requirements|Design Specifications| Status|Unit Test  |
-| ------------- |-------------| -----| --------|------|
-|1|Create Interactive and Dynamic features  |Use CSS and Javscript  |Progressing |N/A|
-|2|Complete Class Diagram  |Create Table from POCO Classes|Progressing|N/A|
-|3|CRUD Operations|Create Tables in DB|Progressing |N/A|
-|4|Connect DB to CRUD Operations|Create DB in SSMS|Complete|N/A|
-|5|Create an About and Contact page|Create a View for both pages|Progressing|N/A|
-|6|Upload Book Images from DB| DB |Progressing|N/A|
-|7|Create Decriptions of the Books|View |Progressing|N/A|
-|8|Create a Pricing System for the Books|DB|Progessing|N/A|
-|9|Create a Tracking System of the Books|DB|Progessing|N/A|
-|10|Create a Comment Page|View and DB|Progressing|N/A|
-|11|Create a User Login | Authentication | Progressing|N/A|
-|12|Create a System to Track Membership  |   DB   |  Progressing |N/A|
-|13|Create a an E-mail Verification System | Views,Models,Comtrollers | Progressing |N/A|
+|Req #|Requirement Description|Test Method| Status|Unit Test Passed?|Time Stamp|
+| ------------- |-------------| -----| --------|------|-----|
+|1|Create Interactive and Dynamic features  |Use CSS and Javscript  |Progressing |N/A|27APR2019|
+|2|Complete Class Diagram  |Create Table from POCO Classes|Progressing|N/A|27APR2019|
+|3|CRUD Operations|Create Tables in DB|Progressing |N/A|27APR2019  |
+|4|Connect DB to CRUD Operations|Create DB in SSMS|Complete|N/A| 27APR2019  |
+|5|Create an About and Contact page|Create a View for both pages|Progressing|N/A|27APR2019|
+|6|Upload Book Images from DB| DB |Progressing|N/A|27APR2019|
+|7|Create Decriptions of the Books|View |Progressing|N/A| 27APR2019 |
+|8|Create a Pricing System for the Books|DB|Progessing|N/A|27APR2019  |
+|9|Create a Tracking System of the Books|DB|Progessing|N/A|27APR2019  |
+|10|Create a Comment Page|View and DB|Progressing|N/A|27APR2019  |
+|11|Create a User Login | Authentication | Progressing|N/A| 27APR2019 |
+|12|Create a System to Track Membership  |   DB   |  Progressing |N/A| 27APR2019|
+|13|Create a an E-mail Verification System | Views,Models,Comtrollers | Progressing |N/A|27APR2019  |
 
 
 
