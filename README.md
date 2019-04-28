@@ -35,7 +35,7 @@ An application where you can rent books at a fair and reasonable price.
     - (Review) (RTM)
     - (Retrospect) -I will probably attempt the DB first approach for my next project.
 --- 
-|Req #|Requirement Description|Test Method| Status|Unit Test Passed?|Time Stamp|
+|Req #|Requirement Description|Test Method| Test Procedure|Unit Test Passed?|Time Stamp|
 | ------------- |-------------| -----| --------|------|-----|
 |1|Create Interactive and Dynamic features  |Use CSS and Javscript  |Progressing |Not Tested|27APR2019|
 |2|Complete Class Diagram  |Create Table from POCO Classes|Progressing|Not Tested|27APR2019|
