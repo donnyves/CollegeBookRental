@@ -1,0 +1,52 @@
+﻿@model IEnumerable<CollegeBookRental.Models.MembershipType>
+@using CollegeBookRental.Models
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3>Membership Types</h3>
+<br />
+<p>
+    @Html.Partial("_CreateButtonPartial")
+</p>
+@* table table-condensed table-hover will highlight the column names. *@
+<table class="table table-condensed table-hover">
+    <tr class="table-header">
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SignUpFee)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ChargeRateMonthly)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ChargeRateSemiAnnual)
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SignUpFee)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChargeRateMonthly)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChargeRateSemiAnnual)
+            </td>
+            <td>
+                @Html.Partial("_TableButtonPartial", new IndividualButtonPartial { MembershipTypeId = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>

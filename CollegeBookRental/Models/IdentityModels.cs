@@ -23,7 +23,11 @@ namespace CollegeBookRental.Models
         public DbSet<Book> Books { get; set; }
         public DbSet<Genre> Genres { get; set; }
 
-        //Now we have to go to NuGet Package Mangager Console to download migrations tools.
+        public DbSet<MembershipType> MembershipTypes { get; set; }
+
+        //DO NOT FOR GET TO USE LOCAL CONNECTION STRING!!!!
+        //Build the solution and save before you add or modify the database. 
+        //Now we have to go to NuGet Package Manager Console to download migrations tools.
         //But check the connection string first to make changes to database name.
         //Now type enable-migrations in Package Manager Console
         //Right after that, type (PM> add-migration AddBookAndGenreClass). And then (PM> update-database)

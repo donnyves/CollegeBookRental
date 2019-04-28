@@ -224,14 +224,20 @@
     <Compile Include="Controllers\GenreController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MembershipTypeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201904230535488_AddedColumnToBook.cs" />
-    <Compile Include="Migrations\201904230535488_AddedColumnToBook.Designer.cs">
-      <DependentUpon>201904230535488_AddedColumnToBook.cs</DependentUpon>
+    <Compile Include="Migrations\201904280320463_AddMembership.cs" />
+    <Compile Include="Migrations\201904280320463_AddMembership.Designer.cs">
+      <DependentUpon>201904280320463_AddMembership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904280323348_SeedMembership.cs" />
+    <Compile Include="Migrations\201904280323348_SeedMembership.Designer.cs">
+      <DependentUpon>201904280323348_SeedMembership.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Abstract\IBook.cs" />
     <Compile Include="Models\Abstract\IGenre.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Book.cs" />
@@ -239,6 +245,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\IndividualButtonPartial.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModel\BookViewModel.cs" />
@@ -363,6 +370,11 @@
     <Content Include="Views\Book\Details.cshtml" />
     <Content Include="Views\Book\Edit.cshtml" />
     <Content Include="Views\Book\Index.cshtml" />
+    <Content Include="Views\MembershipType\Create.cshtml" />
+    <Content Include="Views\MembershipType\Delete.cshtml" />
+    <Content Include="Views\MembershipType\Details.cshtml" />
+    <Content Include="Views\MembershipType\Edit.cshtml" />
+    <Content Include="Views\MembershipType\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -379,8 +391,11 @@
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201904230535488_AddedColumnToBook.resx">
-      <DependentUpon>201904230535488_AddedColumnToBook.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201904280320463_AddMembership.resx">
+      <DependentUpon>201904280320463_AddMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904280323348_SeedMembership.resx">
+      <DependentUpon>201904280323348_SeedMembership.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
