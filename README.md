@@ -42,11 +42,11 @@ An application where you can rent books at a fair and reasonable price.
 |3|CRUD Operations|Demonstrate the Creatation of Tables in DB|Unit Test |Not Tested|27APR2019  |
 |4|Connect DB to CRUD Operations|Demonstrate the Creatation of DB in SSMS|Integration Test|Not Tested| 27APR2019  |
 |5|Create an About and Contact page|Inspect a View for both pages|Unit Test|Not Tested|27APR2019|
-|6|Upload Book Images from DB|Inspect the DB |Progressing|Integration Test|27APR2019|
+|6|Upload Book Images from DB|Inspect the DB |Integration Test|Not Tested|27APR2019|
 |7|Create Decriptions View of the Books|Inspect Changes in View |Unit Test|Not Tested| 27APR2019 |
 |8|Create a Pricing System for the Books|Demonstrate the Display of Price in View|Unit Test|Not Tested|27APR2019  |
 |9|Create a Tracking System of the Books|Demonstrate in view and DB|Integration Test|Not Tested|27APR2019  |
-|10|Create a Comment Page|Demonstrate View and DB|Progressing|Integration Test|27APR2019  |
+|10|Create a Comment Page|Demonstrate View and DB|Integration Test|Not Tested|27APR2019  |
 |11|Create a User Login |Demonstrate in Authentication Login View |Security Test|Not Tested| 27APR2019 |
 |12|Create a System to Track Membership  |Demonstrate in View and DB   |Inegration Test|Not Tested| 27APR2019|
 |13|Create a an E-mail Verification System |Demonstrain in Views,Models,Controllers |Unit Test|Not Tested|27APR2019  |
