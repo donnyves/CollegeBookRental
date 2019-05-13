@@ -41,6 +41,10 @@ College Book Store is an ASP.NET (Framework) rental system application that util
   <a name="working"></a>
 ## Currently Working On
   
+- Making the search bar on the home page functional.
+- Creating a view for the user accounts.
+- Making the admin account visible only to the administrator via login.
+- Creating security measures for both the user and administrator.  
   
 <a name="diagrams"></a>
 ## Class Diagrams 
