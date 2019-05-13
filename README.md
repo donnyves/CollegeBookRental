@@ -1,4 +1,6 @@
 # CollegeBookRental
+[CollegeBookRentalLink](https://collegebookrentaldonnyves.azurewebsites.net/)
+
 
 *An application where you can rent books at a fair and reasonable price.* 
 
@@ -20,8 +22,10 @@
 <a name="introduction"></a>
 ## What is College Book Rental? 
 
-[CollegeBookRentalLink](https://collegebookrentaldonnyves.azurewebsites.net/)
-- SRR  System Requirements Review
+College Book Store is an ASP.NET (Framework) rental system application that utilizes admin and user accounts.  The administrator sets the price for the book rentals and the user chooses a rental plan that satisfies their needs.  
+
+
+
 
 <a name="requirements"></a>
 ## Requirements  
