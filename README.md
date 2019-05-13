@@ -48,8 +48,8 @@ An application where you can rent books at a fair and reasonable price.
 |10|Create a Comment Page|Demonstrate View and DB|Integration Test|Not Tested|27APR2019  |
 |11|Create a User Login |Demonstrate in Authentication Login View |Security Test|Not Tested| 27APR2019 |
 |12|Create a System to Track Membership  |Demonstrate in View and DB   |Inegration Test|Not Tested| 27APR2019|
-|13|Create a an E-mail Verification System |Demonstrain in Views,Models,Controllers |Unit Test|Not Tested|27APR2019  |
-
+|13|Create a an E-mail Verification System |Demonstrate in Views,Models,Controllers |Unit Test|Not Tested|27APR2019  |
+|14|Create Thumbnails to Display Books|Demonstrain on Views, Models, Controllers|Unit Test|Not Tested|12MAY2019|
 
 
   
