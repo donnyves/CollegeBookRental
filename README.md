@@ -143,7 +143,11 @@ College Book Store is an ASP.NET (Framework) rental system application that util
 <a name="future"></a>
 ## Future Implementation 
 
-
+- Create a secure email confirmation system.
+- Create a comment section where users can give suggestion to improve the system or suggest books.
+- Create a book tracking system for the administrator.
+- Connect book inventory to BLOB storage, if the inventory becomes too large.
+- Add a video book review link, where users can upload video of their book critiques.
 
 
 
@@ -156,4 +160,4 @@ College Book Store is an ASP.NET (Framework) rental system application that util
 
 
 ---
- [Back to Table of Contents](#contents)
+ [Back to the Table of Contents](#contents)
