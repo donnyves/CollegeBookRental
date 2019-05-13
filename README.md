@@ -29,8 +29,7 @@
 ---
 
 
-	- Use Cases (PowerPoint)
-  - Design Documents
+
   
   <a name="working"></a>
 ## Currently Working On
