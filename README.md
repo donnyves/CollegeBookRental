@@ -5,7 +5,7 @@
 *An application where you can rent books at a fair and reasonable price.* 
 
 <a name="contents"></a>
-## Future Implementation 
+
 <a name="toc"></a>
 # Table of Contents
 1. [What is College Book Rental?](#introduction)
