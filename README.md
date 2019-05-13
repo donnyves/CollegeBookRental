@@ -24,10 +24,10 @@
 
 <a name="requirements"></a>
 ## Requirements  
-	- User Stories (PowerPoint)
+	
   - Requirements (doc): [Project CollegeGame.pptx](https://github.com/donnyves/CollegeBookRental/files/3076989/Project.CollegeGame.pptx)
 ---
-- SDR  System Design Review
+
 
 	- Use Cases (PowerPoint)
   - Design Documents
