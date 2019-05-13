@@ -236,9 +236,14 @@
     <Compile Include="Migrations\201904280323348_SeedMembership.Designer.cs">
       <DependentUpon>201904280323348_SeedMembership.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905130241032_AddMemberShipFields.cs" />
+    <Compile Include="Migrations\201905130241032_AddMemberShipFields.Designer.cs">
+      <DependentUpon>201905130241032_AddMemberShipFields.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Abstract\IBook.cs" />
     <Compile Include="Models\Abstract\IGenre.cs" />
+    <Compile Include="Models\Abstract\IMembershipType.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -311,7 +316,9 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -396,6 +403,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904280323348_SeedMembership.resx">
       <DependentUpon>201904280323348_SeedMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905130241032_AddMemberShipFields.resx">
+      <DependentUpon>201905130241032_AddMemberShipFields.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

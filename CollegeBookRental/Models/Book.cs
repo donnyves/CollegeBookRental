@@ -8,6 +8,8 @@ namespace CollegeBookRental.Models
 {
     public class Book
     {
+        public object Books;
+
         //All the properties and atrribute of a book will be added.
         //[Required]is placed above the property that is essential.
         //To use [Required] you have to add using System.ComponentModel.DataAnnotations;

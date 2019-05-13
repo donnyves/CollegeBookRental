@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CollegeBookRental.Models.Abstract
 {
-    public interface IBook
+    public interface IMembershipType
     {
-        IEnumerable<Book> Books { get; }
+        IEnumerable<MembershipType> Genres { get; }
     }
 }
