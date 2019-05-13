@@ -15,8 +15,9 @@
 5. [SQL Scripts](#scripts)
 6. [Wire Frames/Screen Shots](#wireframes)
 7. [Testing](#testing)
-8. [Screenshots of Testing](#testshots)
-9. [Future Implementation](#future)
+8. [Prioritized Backlog Items](#backlog)
+9. [Screenshots of Testing](#testshots)
+10. [Future Implementation](#future)
 
 
 
@@ -117,9 +118,21 @@ College Book Store is an ASP.NET (Framework) rental system application that util
 - [ ] View Contents Test
 - [ ] Cannot Process Empty Contents Test
 - [ ] Can Submit Rental Order Test
+---
 
+<a name="backlog"></a>
+## Prioritized Backlog Items
+
+|Req #|Backlog Item|
+| ------------- |-------------|
+|8|Create a Pricing System for the Books|
+|9|Create a Tracking System of the Books|
+|11|Create a User Login |Demonstrate in Authentication Login View |
+|13|Create a an E-mail Verification System |
 
 ---
+
+
 <a name="testshots"></a>
 ## Screenshots of Testing
   ![UnitTest-1](https://user-images.githubusercontent.com/40510674/56087261-09eaf880-5e1c-11e9-8e34-7d2a8d43a277.PNG)
