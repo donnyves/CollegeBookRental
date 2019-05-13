@@ -11,7 +11,8 @@
 5. [SQL Scripts](#scripts)
 6. [Wire Frames/Screen Shots](#wireframes)
 7. [Testing](#testing)
-8. [Future Implementation](#future)
+8. [Screenshots of Testing](#testshots)
+9. [Future Implementation](#future)
 
 
 
@@ -100,8 +101,8 @@
 
 
 ---
-
-- Compliance Trace
+<a name="testshots"></a>
+## Screenshots of Testing
   ![UnitTest-1](https://user-images.githubusercontent.com/40510674/56087261-09eaf880-5e1c-11e9-8e34-7d2a8d43a277.PNG)
 ---
 
@@ -130,21 +131,7 @@
 
 
 
-Freeman, Adam. Pro ASP.NET MVC 5 (Expert's Voice in ASP.Net) . Apress. Kindle Edition.
 
-
-
-
-https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/getting-started
-
-
-
-
-https://www.udemy.com
-
-
-
-https://www.youtube.com/watch?v=phyV-OQNeRM&list=WL&index=15&t=3795s
 
 
 
