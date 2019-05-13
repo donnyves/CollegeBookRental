@@ -46,6 +46,12 @@ College Book Store is an ASP.NET (Framework) rental system application that util
 
 ![ClassDiagram](https://user-images.githubusercontent.com/40510674/56258172-7fa4cd80-6083-11e9-823a-efb39b5d8382.PNG)
 
+## Wire Frames
+
+![Home](https://user-images.githubusercontent.com/40510674/57640187-9a753f80-7566-11e9-9309-0db1cbb877f7.PNG)
+![Genre](https://user-images.githubusercontent.com/40510674/57640202-a06b2080-7566-11e9-99b9-78729f601112.PNG)
+![CreateNewGenre](https://user-images.githubusercontent.com/40510674/57640213-a82ac500-7566-11e9-8c0b-2f0d09a5e444.PNG)
+![DeleteGenre](https://user-images.githubusercontent.com/40510674/57640220-af51d300-7566-11e9-9d48-73aab0d4f259.PNG)
 
 
 <a name="scripts"></a>
