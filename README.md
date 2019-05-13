@@ -152,4 +152,4 @@ College Book Store is an ASP.NET (Framework) rental system application that util
 
 
 ---
-10. [Back to Table of Contents](#contents)
+ [Back to Table of Contents](#contents)
