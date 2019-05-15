@@ -33,7 +33,8 @@ College Book Store is an ASP.NET (Framework) rental system application that util
 <a name="requirements"></a>
 ## Requirements  
 	
-  - Requirements (doc): [Project CollegeGame.pptx](https://github.com/donnyves/CollegeBookRental/files/3180837/Project.CollegeGame.pptx)
+  - Requirements (doc): [Project CollegeGame.pptx](https://github.com/donnyves/CollegeBookRental/files/3183432/Project.CollegeGame.pptx)
+
 ---
 
 
