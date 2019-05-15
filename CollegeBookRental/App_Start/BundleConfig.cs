@@ -22,11 +22,13 @@ namespace CollegeBookRental
             //Change to "~/bundles/bookRentalJs"
             bundles.Add(new ScriptBundle("~/bundles/bookRentalJs").Include(
                 "~/Scripts/bootstrap.js",
-                //add another ~/Scripts but add /AdminMenu.js instead of bootstrap.js
+                      //add another ~/Scripts but add /AdminMenu.js instead of bootstrap.js
                       "~/Scripts/AdminMenu.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/thumbnail.css",
+
                       "~/Content/site.css"));
         }
     }
