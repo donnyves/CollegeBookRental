@@ -97,8 +97,8 @@ College Book Store is an ASP.NET (Framework) rental system application that util
 |11|Create a User Login |Demonstrate in Authentication Login View |Security Test|Not Tested| 27APR2019 |
 |12|Create a System to Track Membership  |Demonstrate in View and DB   |Inegration Test|Not Tested| 27APR2019|
 |13|Create a an E-mail Verification System |Demonstrate in Views,Models,Controllers |Unit Test|Not Tested|27APR2019  |
-|14|Create Thumbnails to Display Books|Demonstrain on Views, Models, Controllers|Unit Test|Not Tested|12MAY2019|
-
+|14|Create Thumbnails to Display Books|Demonstrate in Views, Models, Controllers|Unit Test|Not Tested|12MAY2019|
+|15|Create Pagination to display 4 books at time|Demonstrate in Views, Models, and Controllers|Unit Test|Not Tested|N/A|
 
   
 ---
@@ -107,7 +107,7 @@ College Book Store is an ASP.NET (Framework) rental system application that util
 
 	- Plan
 - [x] Create New Genre Test
-- [ ] Create New Book Test
+- [x] Create New Book Test
 - [ ] Create New User Test
 - [ ] Create New Memebership Test
 - [ ] Create New BookRental Test
