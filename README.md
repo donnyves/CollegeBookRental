@@ -87,18 +87,18 @@ College Book Store is an ASP.NET (Framework) rental system application that util
 |1|Create Interactive and Dynamic features  |Inspect CSS and Javscript  |Unit Test |Not Tested|27APR2019|
 |2|Complete Get and Post Actions  |Demonstrate the Changing Of Views|Unit Test|Not Tested|27APR2019|
 |3|CRUD Operations|Demonstrate the Creatation of Tables in DB|Unit Test |Not Tested|27APR2019  |
-|4|Connect DB to CRUD Operations|Demonstrate the Creatation of DB in SSMS|Integration Test|Not Tested| 27APR2019  |
+|4|Connect DB to CRUD Operations|Demonstrate the Creatation of DB in SSMS|Integration Test|Passed| 14MAY2019  |
 |5|Create an About and Contact page|Inspect a View for both pages|Unit Test|Not Tested|27APR2019|
 |6|Upload Book Images from DB|Inspect the DB |Integration Test|Not Tested|27APR2019|
-|7|Create Decriptions View of the Books|Inspect Changes in View |Unit Test|Not Tested| 27APR2019 |
+|7|Create Decriptions View of the Books|Inspect Changes in View |Unit Test|Passed| 14MAY2019 |
 |8|Create a Pricing System for the Books|Demonstrate the Display of Price in View|Unit Test|Not Tested|27APR2019  |
 |9|Create a Tracking System of the Books|Demonstrate in view and DB|Integration Test|Not Tested|27APR2019  |
 |10|Create a Comment Page|Demonstrate View and DB|Integration Test|Not Tested|27APR2019  |
 |11|Create a User Login |Demonstrate in Authentication Login View |Security Test|Not Tested| 27APR2019 |
 |12|Create a System to Track Membership  |Demonstrate in View and DB   |Inegration Test|Not Tested| 27APR2019|
-|13|Create a an E-mail Verification System |Demonstrate in Views,Models,Controllers |Unit Test|Not Tested|27APR2019  |
+|13|Create a an E-mail Verification System |Demonstrate in Views,Models,Controllers |Unit Test|Not Tested|27APR2019|
 |14|Create Thumbnails to Display Books|Demonstrate in Views, Models, Controllers|Unit Test|Not Tested|12MAY2019|
-|15|Create Pagination to display 4 books at time|Demonstrate in Views, Models, and Controllers|Unit Test|Not Tested|N/A|
+|15|Create Pagination to display 4 books at time|Demonstrate in Views, Models, and Controllers|Unit Test|Not Tested|14MAY2019|
 
   
 ---
@@ -135,7 +135,7 @@ College Book Store is an ASP.NET (Framework) rental system application that util
 
 <a name="testshots"></a>
 ## Screenshots of Testing
-  ![UnitTest-1](https://user-images.githubusercontent.com/40510674/56087261-09eaf880-5e1c-11e9-8e34-7d2a8d43a277.PNG)
+![Tests](https://user-images.githubusercontent.com/40510674/57747041-9e00e780-7688-11e9-8510-adcd5d61fbfc.PNG)
 ---
 
 
@@ -156,7 +156,7 @@ College Book Store is an ASP.NET (Framework) rental system application that util
 <a name="future"></a>
 ## Future Implementation 
 
-- Create a secure email confirmation system.
+- Create a secure email confirmation features.
 - Create a comment section where users can give suggestion to improve the system or suggest books.
 - Create a book tracking system for the administrator.
 - Connect book inventory to BLOB storage, if the inventory becomes too large.
